@@ -1,0 +1,139 @@
+district,partition,inner_fold,rows,positives
+Badin,holdout,-1,748,427
+Bahawalnagar,holdout,-1,1510,377
+Buner,holdout,-1,896,142
+Dera Ghazi Khan,holdout,-1,912,23
+Dera Ismail Khan,holdout,-1,1190,103
+Faisalabad,holdout,-1,1559,47
+Ghotki,holdout,-1,2352,36
+Hangu,holdout,-1,472,183
+Haripur,holdout,-1,1238,27
+Hub,holdout,-1,819,157
+Jaffarabad,holdout,-1,574,119
+Jhang,holdout,-1,1529,55
+Kachhi,holdout,-1,1281,175
+Kharan,holdout,-1,567,75
+Kurram,holdout,-1,832,225
+Mastung,holdout,-1,1209,284
+Multan,holdout,-1,1715,201
+Musakhel,holdout,-1,715,91
+Okara,holdout,-1,1433,201
+Peshawar,holdout,-1,945,81
+Sargodha,holdout,-1,1332,106
+Sheikhupura,holdout,-1,1831,81
+South Waziristan,holdout,-1,917,52
+Tando Allahyar,holdout,-1,1917,335
+Upper Chitral,holdout,-1,935,136
+Upper Kohistan,holdout,-1,464,137
+Usta Muhammad,holdout,-1,411,78
+Vehari,holdout,-1,1566,19
+Zhob,holdout,-1,647,95
+Chagai,train,0,1002,197
+Chakwal,train,0,1762,62
+Gujranwala,train,0,2151,8
+Gujrat,train,0,1208,85
+Jamshoro,train,0,1600,94
+Kasur,train,0,1313,162
+Keamari,train,0,1702,113
+Kech,train,0,623,98
+Killa Saifullah,train,0,890,125
+Kohat,train,0,986,28
+Layyah,train,0,1200,198
+Matiari,train,0,1367,71
+Mirpur Khas,train,0,1817,253
+Nankana Sahib,train,0,1073,114
+Nasirabad,train,0,1075,354
+Orakzai,train,0,668,102
+Panjgur,train,0,1124,472
+Rahim Yar Khan,train,0,976,475
+Sibi,train,0,784,139
+Sohbatpur,train,0,1198,266
+Swat,train,0,1159,12
+Tank,train,0,1100,191
+Bahawalpur,train,1,656,69
+Bhakkar,train,1,797,215
+Chiniot,train,1,1199,109
+Dadu,train,1,2084,193
+Jacobabad,train,1,1844,7
+Kalat,train,1,479,84
+Karachi Central,train,1,934,72
+Khushab,train,1,1435,191
+Khyber,train,1,941,243
+Lodhran,train,1,1118,240
+Lower Chitral,train,1,1159,155
+Malakand,train,1,1545,41
+Mandi Bahauddin,train,1,1509,44
+Mohmand,train,1,559,264
+Naushahro Feroze,train,1,1009,32
+Nushki,train,1,774,60
+Quetta,train,1,1483,86
+Rawalpindi,train,1,1303,80
+Shangla,train,1,1170,247
+Sherani,train,1,761,473
+Surab,train,1,881,184
+Tando Muhammad Khan,train,1,1626,200
+Thatta,train,1,895,72
+Dera Bugti,train,2,700,72
+Harnai,train,2,543,64
+Islamabad,train,2,807,52
+Karachi East,train,2,1451,45
+Karachi South,train,2,1249,15
+Karachi West,train,2,953,51
+Khuzdar,train,2,429,48
+Lakki Marwat,train,2,1113,141
+Lasbela,train,2,2532,1826
+Loralai,train,2,655,78
+Lower Dir,train,2,832,66
+Malir,train,2,1587,59
+Mansehra,train,2,1854,13
+Narowal,train,2,1028,28
+Nowshera,train,2,1326,33
+Rajanpur,train,2,1966,911
+Sahiwal,train,2,1446,3
+Sanghar,train,2,1913,110
+Umer Kot,train,2,1157,83
+Upper Dir,train,2,732,36
+Abbottabad,train,3,1450,58
+Awaran,train,3,1177,209
+Bajaur,train,3,940,76
+Barkhan,train,3,734,134
+Charsadda,train,3,1244,108
+Jhelum,train,3,1144,33
+Karak,train,3,1242,295
+Kashmore,train,3,1442,131
+Khairpur,train,3,1091,71
+Killa Abdullah,train,3,697,147
+Kohlu,train,3,728,454
+Kolai Palas Kohistan,train,3,551,68
+Lahore,train,3,1823,31
+Larkana,train,3,1237,310
+Lower Kohistan,train,3,574,51
+Mardan,train,3,1480,29
+North Waziristan,train,3,527,85
+Pakpattan,train,3,1524,327
+Pishin,train,3,956,145
+Shaheed Benazirabad,train,3,1817,75
+Shikarpur,train,3,1733,95
+Swabi,train,3,1406,76
+Washuk,train,3,620,180
+Attock,train,4,1441,88
+Bannu,train,4,976,193
+Batagram,train,4,1003,44
+Chaman,train,4,1499,503
+Duki,train,4,522,224
+Gwadar,train,4,799,71
+Hafizabad,train,4,1727,14
+Hyderabad,train,4,1315,48
+Jhal Magsi,train,4,1027,333
+Kambar Shahdad Kot,train,4,1512,33
+Khanewal,train,4,1384,196
+Korangi,train,4,1744,22
+Mianwali,train,4,1284,207
+Muzaffargarh,train,4,894,130
+Sialkot,train,4,892,61
+Sujawal,train,4,747,329
+Sukkur,train,4,1417,17
+Tharparkar,train,4,1845,346
+Toba Tek Singh,train,4,1669,39
+Torghar,train,4,854,105
+Ziarat,train,4,1387,315

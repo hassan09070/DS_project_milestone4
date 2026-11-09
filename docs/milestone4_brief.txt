@@ -1,0 +1,53 @@
+04 Advanced Model  (CS/SDP 312/314-L1, Fall 2026)  Due: Tue 10 Nov 2026 23:59
+
+Advanced Model Deployment and Findings
+Having established baseline performance in Milestone 03, your team will now implement advanced machine learning
+architectures (e.g., ensemble learning, regularized networks), perform rigorous hyperparameter optimization. This
+milestone also requires you to conduct a thorough Algorithmic Bias and Fairness Audit to quantify algorithmic disparity
+across sensitive attributes, evaluate accuracy-fairness trade-offs, and implement mitigation strategies (pre-processing,
+in-processing, or post-processing) to ensure ethical deployment.
+
+1. Required Technical & Analytical Deliverables
+A. Baseline Model Implementation & Architecture Selection
+ - Advanced Algorithm Implementation: Train at least two complex or ensemble architectures (e.g., Random Forests,
+   Gradient Boosted Trees [XGBoost / LightGBM], Support Vector Machines, or Neural Networks) and benchmark them directly
+   against your Milestone 03 baselines.
+ - Systematic Hyperparameter Tuning: Execute a structured search (Grid Search, Random Search, or Bayesian Optimization)
+   integrated with stratified K-Fold Cross-Validation to identify optimal model parameters without data leakage.
+ - Comparative Performance Analysis: Evaluate improvement gains across primary metrics (Accuracy, Precision, Recall,
+   F1-Score, ROC-AUC, and Precision-Recall AUC).
+B. Algorithmic Bias and Fairness Audit
+ - Sensitive Attribute Identification: Explicitly define the protected or sensitive attribute(s) in your dataset
+   (e.g., gender, socio-economic class, geographic district, age bracket, or minority identity).
+ - Quantitative Disparity Metrics: Compute key group fairness metrics across protected sub-populations:
+     Demographic Parity / Disparate Impact Ratio: Ratio of positive prediction rates between unprivileged and privileged
+     groups (evaluating compliance with the 80% rule).
+     Equalized Odds / Equal Opportunity: Comparing True Positive Rates (TPR) and False Positive Rates (FPR) across groups
+     to ensure equal error distribution.
+     Predictive Equality: Comparing False Positive Rates to verify that non-failing / non-target cases are not
+     disproportionately misclassified.
+ - Fairness-Accuracy Trade-off Analysis: Map the Pareto frontier illustrating how enforcing fairness constraints impacts
+   overall predictive accuracy.
+C. Feature Importance & Initial Research Insights
+ - FATEN Principles Alignment: Evaluate your finalized model against the FATEN framework: Fairness, Autonomy, Trust,
+   Equity, and Non-maleficence.
+ - Living Lab & Stakeholder Impact: Document how your algorithm would perform in a real-world living lab environment,
+   identifying potential failure modes and governance safeguards needed to prevent digital marginalization.
+
+2. Submission Requirements
+ - Executable Code Notebook (.ipynb or .Rmd): Clean, fully documented, and reproducible code containing model training,
+   cross-validation tuning grids, fairness metric calculations, bias mitigation steps, and threshold curves.
+ - Manuscript Enhancement: Submitted draft towards the end of Milestone 03 further enhanced, detailing model
+   architectures, hyperparameter search spaces, quantitative fairness audits, Pareto trade-off plots, and ethical
+   governance recommendations.
+
+3. Grading Rubric
+ - Advanced Model Architecture & Optimization (30): Implementation of advanced/ensemble algorithms with systematic
+   hyperparameter tuning via stratified CV. Clear comparative analysis against Milestone 03 baselines without data leakage.
+ - Algorithmic Bias and Disparity Audit (35): Identification of sensitive attributes and thorough quantitative
+   evaluation of group fairness metrics (Demographic Parity, Equalized Odds, Disparate Impact Ratio). Clear analysis of
+   fairness vs. accuracy trade-offs.
+ - Bias Mitigation & Asymmetric Threshold Tuning (20): Successful implementation of pre-, in-, or post-processing bias
+   mitigation. Optimization of decision thresholds accounting for asymmetric error costs across demographic groups.
+ - Written Report & Code Reproducibility (15): Fully executable, well-commented code notebook. High-quality PDF
+   manuscript incorporating FATEN governance principles and living lab deployment considerations.
